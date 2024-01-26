@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+body {
+  background-image: url('./image/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.side-bar_left {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  height: 100%;
+  /* color: white; */
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.side-bar_right {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  height: 100%;
+  /* color: white; */
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.side-bar_top {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  height: 100%;
+  /* color: white; */
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.marquee p {
+  overflow: hidden;
+  white-space: nowrap;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
+.marquee span {
+  animation: marquee 3s infinite;
+  display: inline-flex;
+  /* padding-right: 10px; */
+  font-size: 4rem;
+  animation-iteration-count: 2;
+}
+
+/* @keyframes marquee {
   from {
-    transform: rotate(0deg);
+    transform: translateY(0%);
   }
+
   to {
-    transform: rotate(360deg);
+    transform: translateY(-100%);
   }
+} */
+
+/* custom css */
+.figure_main {
+  height: 100px !important;
+  position: relative;
+  background-image: url('../src/image/Snow_falling1.gif');
+}
+
+figure {
+  animation: wobble 20s ease-in-out infinite;
+  transform-origin: center center;
+  transform-style: preserve-3d;
+}
+
+h1 {
+  display: block;
+  width: 90%;
+  line-height: 1.5;
+  font: 900 35px 'Concert One', sans-serif;
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 1px 0 hsl(174, 5%, 80%),
+    0 2px 0 hsl(174, 5%, 75%),
+    0 3px 0 hsl(174, 5%, 70%),
+    0 4px 0 hsl(174, 5%, 66%),
+    0 5px 0 hsl(174, 5%, 64%),
+    0 6px 0 hsl(174, 5%, 62%),
+    0 7px 0 hsl(174, 5%, 61%),
+    0 8px 0 hsl(174, 5%, 60%),
+
+    0 0 5px rgba(0, 0, 0, .05),
+    0 1px 3px rgba(0, 0, 0, .2),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .2),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .3);
+}
+
+@keyframes wobble {
+  0%, 100% {
+    transform: rotate3d(1, 1, 0, 40deg);
+  }
+
+  25% {
+    transform: rotate3d(-1, 1, 0, 40deg);
+  }
+
+  50% {
+    transform: rotate3d(-1, -1, 0, 40deg);
+  }
+
+  75% {
+    transform: rotate3d(1, -1, 0, 40deg);
+  }
+}
+
+.text_1 {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 1px;
+  margin: 1px;
+  color: #f06414;
+  aanimation: fuck infinite 1s;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 2px;
+}
+
+.text_2 {
+  font-size: 2em;
+  text-align: center;
+  color: #008000;
+  animation: rock infinite 1s;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 2px;
+}
+
+.instagram {
+  background: -webkit-linear-gradient(#f09433, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.img_sider{
+  height: .5em;
+  width: .5em;
 }
