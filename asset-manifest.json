@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/happy_republic_day/static/css/main.cd8d7bd2.css",
+    "main.js": "/happy_republic_day/static/js/main.ce338e16.js",
+    "static/media/bg.jpg": "/happy_republic_day/static/media/bg.e5776cba3b84bfaf8f78.jpg",
+    "static/media/15august-monu.gif": "/happy_republic_day/static/media/15august-monu.0c1bf524890481fcdeae.gif",
+    "static/media/happy-republic-day-butterfly.gif": "/happy_republic_day/static/media/happy-republic-day-butterfly.1b41506dfd34c11ceb68.gif",
+    "static/media/Snow_falling1.gif": "/happy_republic_day/static/media/Snow_falling1.68afc179fbfdcbfa6909.gif",
+    "index.html": "/happy_republic_day/index.html",
+    "main.cd8d7bd2.css.map": "/happy_republic_day/static/css/main.cd8d7bd2.css.map",
+    "main.ce338e16.js.map": "/happy_republic_day/static/js/main.ce338e16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8d7bd2.css",
+    "static/js/main.ce338e16.js"
+  ]
+}
