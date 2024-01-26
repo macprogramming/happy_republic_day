@@ -56,10 +56,14 @@ const Home = () => {
                 </div>
                 <h5><span className="text_1">Wishing You</span>&nbsp;<br /><span className="text_2">Happy Republic Day</span></h5>
                 <p className="text-end text-success"><img src={instaicon} style={{ height: '1em', width: '1em'}} /> <a className="instagram" href="https://www.instagram.com/mac_programming/?igsh=ODUwdzg5YzVhMjFo&utm_source=qr">@macprogramming</a></p>
+
+                <div className='mt-5'>
+                  <img src={somu_gif} className="img img-fluid" alt="" />
+                </div>
               </div>
-              <div className="card-footer border-0 bg-transparent">
+              {/* <div className="card-footer border-0 bg-transparent">
                 <img src={somu_gif} className="img img-fluid" alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
